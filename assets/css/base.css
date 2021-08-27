@@ -1,0 +1,344 @@
+:root{
+    --hieght-nav: 240px; 
+
+    --primary-color: #061d4f;
+    --primary-nav-color: #132958;
+    --primary-foot-color: #051740;
+    --link-nav-color: #2b3f69;
+    --link-boder-color: #3460f5;
+    --shirt-color:  #1f3462;
+    --history-active: #192f60;
+    --history-hover: #304470;
+    --list-profile-color : #1f3461;
+    --btn_active_profie: #6e6875;
+    --btn--all-color: #3460f5;
+    --icon-color: #33466f;
+    --hover--text: #6e8ffb;
+    --hover-color-text: #5b7adc;
+    --active--foot-color: #2a6ffb;
+    --heart-color: #3460f5;
+    --clothes-color: #3460f5;
+    --foot-hover-color: #324062;
+    --art-color:#1f3461;
+    --linear-gradient-bg: #1a2d56;
+    --hover-zingchar: #475678;
+    --zingchar-item :#293b62;
+    --Number_zingchar: 2px #50e3c2;
+    --hover_text_foot:   #6e8ffb;
+    --modal-color: #192f60;
+    --release-color: #1f3461;
+    --text-view-color: #345ff4;
+    --setting_color: #192f60;
+    --setting-link-color:  #304470;
+    --song-music-color: #1f3461;
+    --text-setting-color: #8b96af;
+
+
+    --sticky-header-box-shadow: rgba(0,0,0,0.1);
+    --text-color:   #dadada;
+    --next-btn-color:  #13415c;
+    --white-color: #ffffff;
+    /* --text-color:   #a0a0a0; */
+    --purple-primary: #ed2b91;
+    --border-secondary: rgba(185, 173, 173, 0.897);
+    --hover-color: hsla(0,0%,100%,0.1);
+    --border_nav-color: hsla(0,0%,100%,0.1);
+
+}
+
+.purple_color{
+    --primary-color: #170F23;
+    --primary-nav-color: #231B2E;
+    --primary-foot-color: #120c1c;
+    --link-nav-color: #393243;
+    --link-boder-color: #7200a1;
+    --shirt-color:  #2f2739;
+    --history-active: #432275;
+    --history-hover: #573a83;
+    --list-profile-color : #2f2739;
+    --btn_active_profie: #6e6875;
+    --btn--all-color: #7200a1;
+    --icon-color: #423a4b;
+    --hover--text: #7200a1;
+    --hover-color-text: #7200a1;
+    --active--foot-color: #ed2b91;
+    --heart-color: #ed2b91;
+    --clothes-color: #7200a1;
+    --foot-hover-color: #3c3744;
+    --art-color: #231b2e;
+    --linear-gradient-bg: #441061;
+    --zingchar-item :  #5d1c77;
+    --hover-zingchar: #6d3e84;
+    --Number_zingchar: 2px #4a90e2;
+    --hover_text_foot: #c662ef;
+    --modal-color: #432275;
+    --next-btn-color:  #5c5765;
+    --release-color: #2f2739;
+    --text-view-color: #6b0496;
+    --song-music-color: #2f2739;
+    --setting-link-color:  #563983;
+    --setting_color: #432275;
+}
+
+
+.dark_color{
+    --primary-color: #1e1e1e;
+    --primary-nav-color: #292929;
+    --primary-foot-color: #181818;
+    --link-nav-color:  #3f3f3f ;
+    --link-boder-color: #7200a1;
+    --shirt-color:  #353535;
+    --history-active: #282828 ;
+    --history-hover: #3e3e3e;
+    --list-profile-color : #353535;
+    --btn_active_profie: #6e6875;
+    --btn--all-color: #7200a1;
+    --icon-color: #474747;
+    --hover--text: #b65bdb;
+    --hover-color-text: #a662e2;
+    --active--foot-color: #7200a1;
+    --heart-color: #7200a1;
+    --clothes-color: #a0a0a0;
+    --art-color:#3e3e3e;
+    --linear-gradient-bg: #441061;
+    --zingchar-item :  #5d1c77;
+    --hover-zingchar: #6d3e84;
+    --Number_zingchar: 2px #4a90e2;
+    --hover_text_foot: #c662ef;
+    --modal-color: #3d3d3d;
+    --hover_text_foot: #c662ef;
+    --next-btn-color:  #5c5765;
+    --release-color: #353535;
+    --text-view-color: #7200a1;
+    --song-music-color: #3e3e3e;
+    --setting_color: #3d3d3d;
+    --setting-link-color:  #515151;
+}
+
+.green_color{
+    --primary-color: #124534;
+    --primary-nav-color: #1e4e3e;
+    --primary-foot-color: #0e372a;
+    --link-nav-color:  #356052 ;
+    --link-boder-color: #309785;
+    --shirt-color:  #2a5849;
+    --history-active: #126e54 ;
+    --history-hover: #2a7d65;
+    --list-profile-color : #2a5849;
+    --btn_active_profie: #6a8a80;
+    --btn--all-color: #309785;
+    --icon-color: #3d6659;
+    --hover--text: #2e9180;
+    --hover-color-text: #22977b;
+    --active--foot-color: #309785;
+    --heart-color: #309785;
+    --clothes-color: #309785;
+    --foot-hover-color: #395a4f;
+    --art-color:#2a5849;
+    --linear-gradient-bg: #126a4e;
+    --zingchar-item :  #26634e;
+    --hover-zingchar: #437e6b;
+    --Number_zingchar: 2px #d85b53;
+    --hover_text_foot: #309778;
+    --modal-color: #126e54;
+    --next-btn-color:  #1b5d48;
+    --release-color: #2a5849;
+    --text-view-color: #309785;
+    --song-music-color: #2a5849;
+    --setting-link-color:  #2a7d65;
+    --setting_color: #126e54;
+    --text-setting-color: #dadada;
+
+}
+
+
+.red_color{
+    --primary-color: #731717;
+    --primary-nav-color: #7a2323;
+    --primary-foot-color: #5c1212;
+    --link-nav-color:  #883939 ;
+    --link-boder-color: #aa1c1c;
+    --shirt-color:  #934f4b;
+    --history-active: #883236 ;
+    --history-hover: #94474a;
+    --list-profile-color : #812f2f;
+    --btn_active_profie: #a76e6e;
+    --btn--all-color: #aa1c1c;
+    --icon-color: #7f2c2c;
+    --hover--text: #eb6060;
+    --hover-color-text: #eb5660;
+    --active--foot-color: #f36565;
+    --heart-color: #aa1c1c;
+    --clothes-color: #aa1c1c;
+    --foot-hover-color: #783c3c;
+    --art-color:#812f2f;
+    --linear-gradient-bg: #8f1819;
+    --zingchar-item :  #962a2a;
+    --hover-zingchar: #a54747;
+    --Number_zingchar: 2px #50e3c2;
+    --hover_text_foot: #f36565;
+    --modal-color: #883236;
+    --next-btn-color:  #9d5c5c;
+    --release-color: #812f2f;
+    --text-view-color: #de3636;
+    --song-music-color: #812f2f;
+    --setting-link-color:  #94474a;
+    --setting_color: #883236;
+    --text-setting-color: #a0a0a0;
+
+}
+
+.purple_color_view{
+    --primary-color: #170F23;
+    --primary-nav-color: #231B2E;
+    --primary-foot-color: #120c1c;
+    --link-nav-color: #393243;
+    --link-boder-color: #7200a1;
+    --shirt-color:  #2f2739;
+    --history-active: #432275;
+    --history-hover: #573a83;
+    --list-profile-color : #2f2739;
+    --btn_active_profie: #6e6875;
+    --btn--all-color: #7200a1;
+    --icon-color: #423a4b;
+    --hover--text: #7200a1;
+    --hover-color-text: #7200a1;
+    --active--foot-color: #ed2b91;
+    --heart-color: #ed2b91;
+    --clothes-color: #7200a1;
+    --foot-hover-color: #3c3744;
+    --art-color: #231b2e;
+    --linear-gradient-bg: #441061;
+    --zingchar-item :  #5d1c77;
+    --hover-zingchar: #6d3e84;
+    --Number_zingchar: 2px #4a90e2;
+    --hover_text_foot: #c662ef;
+    --modal-color: #432275;
+    --next-btn-color:  #5c5765;
+    --release-color: #2f2739;
+    --text-view-color: #6b0496;
+    --song-music-color: #2f2739;
+    --setting-link-color:  #563983;
+    --setting_color: #432275;
+}
+
+
+.dark_color_view{
+    --primary-color: #1e1e1e;
+    --primary-nav-color: #292929;
+    --primary-foot-color: #181818;
+    --link-nav-color:  #3f3f3f ;
+    --link-boder-color: #7200a1;
+    --shirt-color:  #353535;
+    --history-active: #282828 ;
+    --history-hover: #3e3e3e;
+    --list-profile-color : #353535;
+    --btn_active_profie: #6e6875;
+    --btn--all-color: #7200a1;
+    --icon-color: #474747;
+    --hover--text: #b65bdb;
+    --hover-color-text: #a662e2;
+    --active--foot-color: #7200a1;
+    --heart-color: #7200a1;
+    --clothes-color: #a0a0a0;
+    --art-color:#3e3e3e;
+    --linear-gradient-bg: #441061;
+    --zingchar-item :  #5d1c77;
+    --hover-zingchar: #6d3e84;
+    --Number_zingchar: 2px #4a90e2;
+    --hover_text_foot: #c662ef;
+    --modal-color: #3d3d3d;
+    --hover_text_foot: #c662ef;
+    --next-btn-color:  #5c5765;
+    --release-color: #353535;
+    --text-view-color: #7200a1;
+    --song-music-color: #3e3e3e;
+    --setting_color: #3d3d3d;
+    --setting-link-color:  #515151;
+}
+
+.green_color_view{
+    --primary-color: #124534;
+    --primary-nav-color: #1e4e3e;
+    --primary-foot-color: #0e372a;
+    --link-nav-color:  #356052 ;
+    --link-boder-color: #309785;
+    --shirt-color:  #2a5849;
+    --history-active: #126e54 ;
+    --history-hover: #2a7d65;
+    --list-profile-color : #2a5849;
+    --btn_active_profie: #6a8a80;
+    --btn--all-color: #309785;
+    --icon-color: #3d6659;
+    --hover--text: #2e9180;
+    --hover-color-text: #22977b;
+    --active--foot-color: #309785;
+    --heart-color: #309785;
+    --clothes-color: #309785;
+    --foot-hover-color: #395a4f;
+    --art-color:#2a5849;
+    --linear-gradient-bg: #126a4e;
+    --zingchar-item :  #26634e;
+    --hover-zingchar: #437e6b;
+    --Number_zingchar: 2px #d85b53;
+    --hover_text_foot: #309778;
+    --modal-color: #126e54;
+    --next-btn-color:  #1b5d48;
+    --release-color: #2a5849;
+    --text-view-color: #309785;
+    --song-music-color: #2a5849;
+    --setting-link-color:  #2a7d65;
+    --setting_color: #126e54;
+    --text-setting-color: #dadada;
+
+}
+
+
+.red_color_view{
+    --primary-color: #731717;
+    --primary-nav-color: #7a2323;
+    --primary-foot-color: #5c1212;
+    --link-nav-color:  #883939 ;
+    --link-boder-color: #aa1c1c;
+    --shirt-color:  #934f4b;
+    --history-active: #883236 ;
+    --history-hover: #94474a;
+    --list-profile-color : #812f2f;
+    --btn_active_profie: #a76e6e;
+    --btn--all-color: #aa1c1c;
+    --icon-color: #7f2c2c;
+    --hover--text: #eb6060;
+    --hover-color-text: #eb5660;
+    --active--foot-color: #f36565;
+    --heart-color: #aa1c1c;
+    --clothes-color: #aa1c1c;
+    --foot-hover-color: #783c3c;
+    --art-color:#812f2f;
+    --linear-gradient-bg: #8f1819;
+    --zingchar-item :  #962a2a;
+    --hover-zingchar: #a54747;
+    --Number_zingchar: 2px #50e3c2;
+    --hover_text_foot: #f36565;
+    --modal-color: #883236;
+    --next-btn-color:  #9d5c5c;
+    --release-color: #812f2f;
+    --text-view-color: #de3636;
+    --song-music-color: #812f2f;
+    --text-setting-color: #a0a0a0;
+}
+
+
+::placeholder{
+    color: #dadada;
+}
+
+.hidden{
+    display: none ;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
