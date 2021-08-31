@@ -1,0 +1,1107 @@
+/* Reponsive trên thiết bị có màn hình lớn */
+@media(min-width: 1400px){
+  
+    .container_profile{
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .container_header--content_btns{
+        width:10%;
+    }
+    .container_header--content_extend{
+        margin: 0;
+        width: 35%;
+        justify-content:flex-end ;
+    }
+
+    .container_header--content_search{
+        width: 50%;
+    }
+
+
+    .container_profile--layout{
+        width: 100%;
+    }
+
+    .container_profile--layout__sum{
+        width: 100%;
+    }
+
+    .container_profile--layout__sum--foot_list.active_responsip{
+        width: 100% !important;
+    }
+
+    .container_profile--layout__sum--foot_list{
+        width: calc(100% - 270px) !important;
+    }
+
+    .listen{
+        width: 100%;
+        z-index: 102;
+    }
+
+    .controls{
+        width: 40%;
+    }
+
+    .media{
+        width: 30%;
+    }
+
+    .controls_extend{
+        width: 30%;
+    }
+    
+    .controls_extend--lever{
+        padding-left: 22%;
+    }
+
+ 
+    .album_respnsive  .container_profile--layout__playlist--item{
+        width: calc(100%  / 4 );
+        height: calc(100% - 10px );
+        background-color: var(--primary-color);
+        padding: 0 15px;
+    }
+
+
+    .album_respnsive .container_profile--layout__playlist--item_hear{
+        width: 100%;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .album_respnsive  .container_profile--layout__playlist--item_hear--img{
+        width: 100%;
+        overflow: hidden;
+        border-radius: 4px;
+        height: auto;
+        position: relative;
+    }
+
+    .album_respnsive  .container_profile--layout__playlist--item_hear--img img{
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-top: 100%;
+        background-position: center;
+        transition: 0.7s ease;
+    }
+
+    .album_respnsive  .container_profile--layout__playlist--item_hear--icon{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        display: none;
+        top: 50%;
+        transform: translateY(-50%)
+    }
+
+
+    .container_body{
+        width: 100%;
+        padding: 0 30px;
+    }
+    
+    .container_body--layout_slide{
+        width: 100%;
+        display: none;
+    }
+
+    .container_body--layout{
+        width: 100%;
+    }
+    
+    .container_body--layout_list{
+        width: 100%;
+    }
+
+    .container_body--layout_list--items{
+        width: calc(100% + 30px);
+        height: 100%;
+    }
+
+    .container_body--layout_list--item{
+        width: 100%;
+        height: calc(100% - 10px);
+    }
+
+    .container_body--layout_list--item_img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .container_profile--layout__playlist--item_hear--icon{
+        width: 100%;
+        top: 50%;
+    }
+
+    .container_body--layout_list--items.slider_user_img{
+        height: auto;
+    }
+
+    .slider_user_img .container_body--layout_list--item_img img,
+    .slider_user_img .container_body--layout_list--item_img,
+    .slider_user_img .container_body--layout_list--item{
+        height: 100%;
+    }
+
+    .container_body--layout_list--item{
+        width: 100%;
+    }
+
+}
+
+/* Reponsive trên pc */
+@media(min-width: 1024px){
+    .hion-on-pc{
+        display: none !important;
+    }
+}
+
+
+/* Reponsive trên pc 1024 đến 1279 */
+@media (min-width: 1024px ) and (max-width: 1279px){
+    .hion-on-pc-medium{
+        display: none !important;
+    }
+    
+    .container_profile{
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .container_header--content_btns{
+        width:10%;
+    }
+    .container_header--content_extend{
+        margin: 0;
+        width: 35%;
+        justify-content:flex-end ;
+    }
+
+    .container_header--content_search{
+        width: 50%;
+    }
+
+
+    .container_profile--layout{
+        width: 100%;
+    }
+
+    .container_profile--layout__sum{
+        width: 100%;
+    }
+
+    .container_profile--layout__sum--foot_list.active_responsip{
+        width: 100% !important;
+    }
+
+    .container_profile--layout__sum--foot_list{
+        width: calc(100% - 270px) !important;
+    }
+
+    .listen{
+        width: 100%;
+        z-index: 102;
+    }
+
+    .controls{
+        width: 40%;
+    }
+
+    .media{
+        width: 30%;
+    }
+
+    .controls_extend{
+        width: 30%;
+    }
+    
+    .controls_extend--lever{
+        padding-left: 22%;
+    }
+
+    .controls_extend--lever_item_range{
+        display: none;
+    }
+
+ 
+    .album_respnsive  .container_profile--layout__playlist--item{
+        width: calc(100%  / 4 );
+        height: calc(100% - 10px );
+        background-color: var(--primary-color);
+        padding: 0 15px;
+    }
+
+
+    .album_respnsive .container_profile--layout__playlist--item_hear{
+        width: 100%;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .album_respnsive  .container_profile--layout__playlist--item_hear--img{
+        width: 100%;
+        overflow: hidden;
+        border-radius: 4px;
+        height: auto;
+        position: relative;
+    }
+
+    .album_respnsive  .container_profile--layout__playlist--item_hear--img img{
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-top: 100%;
+        background-position: center;
+        transition: 0.7s ease;
+    }
+
+
+    .album_respnsive  .container_profile--layout__playlist--item_hear--icon{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        display: none;
+        top: 50%;
+        transform: translateY(-50%)
+    }
+
+
+    .container_body{
+        width: 100%;
+        padding: 0 30px;
+    }
+    
+    .container_body--layout_slide{
+        width: 100%;
+        display: none;
+    }
+
+    .container_body--layout{
+        width: 100%;
+    }
+    
+    .container_body--layout_list{
+        width: 100%;
+    }
+
+    .container_body--layout_list--items{
+        width: calc(100% + 30px);
+        height: 100%;
+    }
+
+    .container_body--layout_list--item{
+        width: 100%;
+        height: calc(100% - 10px);
+    }
+
+    .container_body--layout_list--item_img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .container_profile--layout__playlist--item_hear--icon{
+        width: 100%;
+        top: 50%;
+    }
+
+    .container_body--layout_list--items.slider_no_info .container_body--layout_list--item_img{
+        height: 100px;
+    }
+
+    .container_body--layout_list--item.slider_no_info .container_body--layout_list--item_img img{
+        height: 100%;
+    }
+
+    .slider_user_img .container_body--layout_list--item_img img,
+    .slider_user_img .container_body--layout_list--item_img,
+    .slider_user_img .container_body--layout_list--item{
+        height: 100%;
+    }
+
+    .container_body--layout_list--item{
+        width: 100%;
+    }
+
+    .logo_foot,
+    .container_body--layout_list-logo{
+        width: 100%;
+    }
+
+    .logo_foot.container_body--layout_list{
+        height: auto;
+    }
+
+    .logo_foot .container_body--layout_loggo--list_img{
+        height: 80px;
+    }
+
+    .container_body--layout_list-logo{
+        flex-direction: column;
+    }
+
+    .container_header--content_extend--modal{
+        position: absolute;
+        display: none;
+        top: 54px;
+        right: 0;
+        left: unset;
+    }
+
+    .container_header--content_extend--setting{
+        left: unset;
+        margin-right: 30px;
+    }
+    
+}
+
+
+/* Reponsive trên pc 1024px đến 1279px */
+@media (min-width: 1024px ) and (max-width: 1199px){
+    .hion-on-024-079{
+        display: none !important;
+    }
+
+    .w024-200-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 1100px ) and (max-width: 1279px){
+    .hion-on-100-279{
+        display: none !important;
+    }
+
+    .w100-279-2-4{
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+/* Reponsive trên pc 1024px đến 1279px */
+@media (min-width: 1024px ) and (max-width: 1129px){
+    .hion-on-024-129{
+        display: none !important;
+    }
+
+    .container_body--layout_list--zingchar_list{
+        justify-content: space-evenly;
+    }
+
+    
+    .slider_user_img .container_body--layout_list--item_img img{
+        padding: 10px 0;
+    }
+
+    .m-024-129 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+
+}
+
+
+/* Reponsive trên mobile và tablet */
+@media(max-width: 1023px){
+
+    .hion-on-mobile-table{
+        display: none !important;
+    }
+
+    .nav{
+        margin-top: 70px;
+        background-color: var(--primary-nav-color);
+        top: 0;
+        left: 0;
+        width: 30%;
+        bottom: 0;
+        z-index: 100;
+        transform: translateX(-100%);
+        transition: transform .3s ease;
+    }
+
+    .nav.active_modile{
+        transform: translateX(0);
+        transition: transform .3s ease;
+        -webkit-animation: animation_mobile 0.5s ; /* Safari 4+ */
+        -moz-animation:    animation_mobile 0.5s ; /* Fx 5+ */
+        -o-animation:      animation_mobile 0.5s ; /* Opera 12+ */
+        animation:         animation_mobile 0.5s ; /* IE 10+, Fx 29+ */
+    }
+
+    @-webkit-keyframes animation_mobile {
+        0%   { opacity: 0; }
+        100% { opacity: 1; }
+      }
+      @-moz-keyframes animation_mobile {
+        0%   { opacity: 0; }
+        100% { opacity: 1; }
+      }
+      @-o-keyframes animation_mobile {
+        0%   { opacity: 0; }
+        100% { opacity: 1; }
+      }
+      @keyframes animation_mobile {
+        0%   { opacity: 0; }
+        100% { opacity: 1; }
+      }
+
+
+    .nav_label--sidebar_croller{
+        height: auto;
+    }
+
+    .nav_label--sidebar_banner{
+        display: none;
+    }
+
+    .nav_label--sidebar_creat {
+        display: none;
+    }
+
+
+    
+    /* Xử lý container table và mobile  */
+
+
+    .container{
+        padding: 0 20px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        height: calc(100vh - 88px);
+    }
+
+    .container.active .container_body{
+        width: 100%;
+    }
+    .container.active .container_profile{
+        width: 100%;
+    }
+
+    .container_header{
+        width: 100%;
+        margin:0 -20px;
+    }
+
+
+    .container_header--content{
+        width: 100%;
+    }
+
+    .container_header--content_btns{
+        width:25%;
+    }
+    .container_header--content_extend{
+        margin: 0;
+        width:25%;
+        justify-content:flex-end ;
+    }
+
+    .container_header--content_search{
+        width: 50%;
+    }
+
+ 
+ /* xử lý phần container_profile */
+    .container_profile--user_action{
+        margin-right: 0;
+    }   
+
+    .container_profile--layout{
+        width: 100%;
+    }
+
+    .container_profile--layout__sum--foot_list--item{
+        width: 100%;
+    }
+
+
+
+/*  Xử lý phần foot  */   
+    .listen{
+        width: 100%;
+        z-index: 102;
+    }
+
+    .controls{
+        width: 48%;
+    }
+
+    .media{
+        width: 35%;
+    }
+
+    .media_cd{
+        margin: 0;
+    }
+
+    .controls_extend{
+        width: 22%;
+    }
+
+    .controls_extend--lever{
+        padding-left: 0;
+    }
+
+    .controls_extend--lever_item_range{
+        display: none;
+    }
+
+    .media_icon{
+        display: none;
+        width: 0;
+    }
+
+    .controls_extend--lever{
+        justify-content: space-between;
+    }
+
+    .container_header--content_extend--modal_themse--btn{
+        opacity: 1;
+        cursor: pointer;
+        display: flex;
+        margin: auto;
+    }
+
+    .container_header--content_extend--setting{
+        left: unset;
+        margin-right: 10px;
+    }
+
+
+    /* Xử Lý phần body cho mobile - và tablet */
+
+    .container_body{
+        padding: 0;
+    }
+
+    .container_body--layout_slide{
+        width: 100%;
+        display: none;
+    }
+
+    .container_body--layout{
+        width: 100%;
+    }
+    
+    .container_body--layout_list{
+        width: 976px;
+    }
+
+    .container_body--layout_list--items{
+        width: 976px;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-snap-stop: always;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .container_body--layout_list--items::-webkit-scrollbar{
+        display: none;
+    }
+
+    .container_body--layout_list--item{
+        width: 100%;
+        scroll-snap-align: start;
+    }
+
+    .container_body--layout_list--item_img{
+        width: 222px;
+    }
+
+    .slider_medium .container_body--layout_list--item_img{
+        width: 100%;
+    }
+
+    .container_body--layout_list--title_icon{
+        display: none;
+    }
+
+    .container_body--layout_list--zingchar{
+        height: 700px;
+    }
+
+    .container_body--layout_list--zingchar_list--items{
+        margin-top: 25px;
+    }
+
+    .container_body--layout_list--zingchar_btn{
+        width: 100%;
+        height: calc(100% - 520px - 43px - 25px);;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .container_body--layout_list--items.slider_user_img{
+        height: 300px;
+    }
+
+    .logo_foot,
+    .container_body--layout_list-logo{
+        width: 100%;
+    }
+
+    .logo_foot.container_body--layout_list{
+        height: auto;
+    }
+
+    .logo_foot .container_body--layout_loggo--list_img{
+        height: 80px;
+    }
+
+    .container_body--layout_list-logo{
+        flex-direction: column;
+    }
+
+
+}
+
+/* Reponsive trên tablet  */
+@media (min-width: 740px ) and (max-width: 1023px){
+    .hion-on-table{
+        display: none !important;
+    }
+
+    .container.active::-webkit-scrollbar{
+        width: 0;
+        height: 0;
+     }
+
+     .container_profile--layout__sum--foot_list{
+        width: calc(100% - 270px) ;
+    }
+     
+
+    .container_header--content_extend--modal{
+        position: absolute;
+        width: 50vw;
+        display: none;
+        height: 600px;
+        top: 54px;
+        right: -30px;
+        left: unset;
+    }
+
+
+    .container_profile--layout__sum--foot_list.active_responsip{
+        width: 100% !important;
+    }
+
+    .container_profile--layout__sum--foot_list{
+        width: calc(100% - 270px) !important;
+    }
+
+}
+
+/* Reponsive trên table 950 - 1023  */
+@media (min-width: 950px ) and (max-width: 1023px){
+    .container_profile--layout__playlist--item {
+        width: calc(100% / 4);
+    }
+}
+
+
+
+@media (max-width: 739px){
+    .hion-on-mobile{
+        display: none !important;
+    }
+
+    .container_profile--layout{
+        padding: 0;
+    }
+
+    .container_header--content_btns{
+        /* width:10%; */
+        display: none;
+    }
+
+    .container_header--content_extend{
+        margin: 0;
+        width: 25%;
+        justify-content:flex-end ;
+    }
+
+    .container_header--content_search{
+        width: 75%;
+    }
+
+    
+    .container{
+        padding: 0 10px;
+    }
+
+    .container.active::-webkit-scrollbar{
+        width: 0;
+        height: 0;
+     }
+     
+
+    .container_header{
+        padding: 0 0 0 20px;
+        width: calc(100% + 10px);
+    }
+
+
+    .container_profile--user{
+        width: 100%;
+        justify-content: center;
+        padding: 0;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .container_profile--layout__sum--foot_list--item_lable{
+        width: calc(100% - 20% - 30%);
+    }
+
+    .container_profile--layout__sum--foot_list--item_time{
+        width: calc(30% - 50px);
+    }
+
+    .container_profile--layout__sum--foot_list--item_more{
+        width: calc(20%) ;
+    }
+
+    .container_profile--layout__sum--foot_list--item_lable--info{
+        cursor: pointer;
+        width: 100%;
+        margin-top: 2px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+        color: #fff;
+    }
+    
+
+    .profile--layout__ablum{
+        margin-top: 30px !important;
+    }
+
+    .container_profile--user_action--btn,
+    .container_profile--user_action {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .container_profile--layout__sum--foot{
+        width: 100%;
+    }
+
+    .container_profile--layout__sum--foot_list{
+        width: 100%;
+        margin: 0 !important;
+    }
+
+    .container_profile--head_list{
+        width: auto;
+    }
+
+    .container_profile--layout__playlist--title{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }    
+
+    .container_profile--layout__playlist--title_icon{
+        width: 18px;
+        height: 18px;
+        text-align: center;
+    }
+
+    .mobile .container_profile--layout__playlist--item_creat{
+        height: 100%;
+        border-radius: 4px;
+    }
+
+    .container_profile--layout__playlist--item_creat--icon{
+        width: 100%;
+    }
+    .container_profile--layout__playlist--item_creat--name{
+        width: 100%;
+    }
+
+
+    .mobile .container_profile--layout__playlist--item_hear{
+        width: calc(100vw - 20px);
+        height: 220px;
+    }
+
+    .mobile .row1{
+        width: 100%;
+        flex-direction: column;
+        height: 460px;
+        overflow: hidden;
+    }
+
+    .mobile .container_profile--layout__playlist--item{
+        width: calc(100% + 20px);
+        margin-bottom: 20px;
+    }
+
+    .container_profile--layout__playlist--items{
+        width: calc(100% + 20px);
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-snap-stop: always;
+        display: flex;
+        flex-direction: row;
+        margin: 0 -10px;
+        padding-left: 10px;
+    }
+
+    .container_profile--layout__playlist--items {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .container_profile--layout__playlist--items::-webkit-scrollbar {
+        display: none;
+    }
+
+
+    .container_profile--layout__playlist--item_hear--img {
+        scroll-snap-align: center;
+    }
+
+    .row1{
+        flex-wrap: nowrap;
+    }
+
+    .container_profile--head_list--item{
+        margin: auto;
+    }
+
+    .container_profile--layout__playlist.mobile{
+        width: 100%;
+        margin: 0 !important;
+    }
+
+    .container_profile--layout__playlist--item{
+        width: 100%;
+    }
+
+    .container_header--content_extend--modal{
+        position: absolute;
+        width: calc(100vw + 30px);
+        display: none;
+        height: calc(100vh - 100px);
+        /* top: 54px; */
+        top: -15px;
+        overflow-x: auto;
+        right: -30px;
+        left: unset;
+    }
+
+    .container_header--content_extend--modal_themse--row{   
+        width: calc(100% - 30px);
+    }
+
+    /* // xử lý nghe nhạc trên mobile toàn màn hình  */
+    .listen{
+        height:100%;
+        flex-direction: column;
+    }
+
+    .media{
+        width: 100%;
+        height: 60%;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+
+    .media_title{
+        width: 500px !important;
+        position: relative;
+    }
+
+    .media_title--name{
+        font-size: 20px;
+        width: 100%;
+    }
+    .media_title--author{
+        height: 20px;
+        line-height: 20px;
+        font-size: 16px
+    }
+
+    .media_title--iconMobile{
+        position: absolute;
+        width: 44px;
+        height: 44px;
+        left: -44px;
+        top: 0;
+        list-style: none;
+    }
+
+    .media_title--iconMobile i{
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .media_cd{
+        width: 270px;
+        height:270px;
+    }
+
+    .controls{
+        width: 100%;
+        height: 40%;
+        justify-content: space-evenly;
+        flex-direction: column-reverse;
+        padding: 10% 0px ;
+    }
+
+    .controls_player{
+        justify-content: space-between;
+    }
+
+    .controls_extend {
+        display: none;
+    }
+
+    .controls_time--range::-webkit-slider-thumb{
+        width: 10px;
+        -webkit-appearance: none;
+        height: 10px;
+        cursor: ew-resize;
+        background: transparent;
+        box-shadow: -1000px 0 0 1000px var(--hover--text);
+    }
+
+    .controls_time--range{
+        background-color: var(--text-color);
+        -webkit-appearance: none;
+    }
+  
+    .controls_time--range:hover{
+        overflow: hidden;
+        height: 3px;
+    }
+
+    .controls_player--icon i{
+        font-size: 24px ;
+    }
+    
+    .controls_player--icon .fa-pause-circle,
+    .controls_player--icon .fa-play-circle{
+        font-size: 40px ;
+    }
+
+    
+    .container_body--layout_list--zingchar{
+        height: 960px;
+    }
+
+    .container_body--layout_list--zingchar_list--items{
+        margin-top: 10px;
+    }
+
+    .container_body--layout_list--zingchar_btn{
+        width: 100%;
+        height: calc(100% - (260px * 3) - 43px - 10px);;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .container_body--layout_songMusic{
+        height: 900px;
+    }
+
+    .container_body--layout_loggo{
+        height: 300px;
+    }
+    
+    .logo_foot.container_body--layout_list{
+        padding: 0 20px;
+    }    
+
+    .logo_foot .container_body--layout_loggo{
+        height: 240px;
+    }
+
+    .container_body--layout_list-logo{
+        height: 580px;
+    }
+
+    .container_body--layout_logo--list{
+        margin-top: 12px;
+        height: 120px;
+    }
+
+    .logo_foot .container_body--layout_loggo--list_img{
+        height: 120px;
+    }
+
+    .logo_foot img{
+        width: 120px;
+        height: 60px;
+        margin: auto;
+    }
+    
+
+}
+
+
+
+
+/* // Màn hình kích thước nhỏ hơn 440  */
+@media (max-width: 440px){
+     .container_header--content_extend{
+        margin: 0;
+        width: 30%;
+        justify-content:flex-end ;
+    }
+
+    .container_header--content_search{
+        width: 70%;
+    }
+
+    .container_profile--head_list--item{
+        width: 80px;
+    }
+    
+    
+    .container_profile--head_list--item:nth-child(1){
+        width: 100px;
+    }
+}
+
+/* // Màn hình kích thước nhỏ hơn 360  */
+@media (max-width: 360px){
+   .container_profile--head_list--item{
+       width: 70px;
+   }
+   
+   .container_profile--head_list--item:nth-child(1){
+       width: 90px;
+   }
+
+   .media_cd{
+    width: 220px;
+    height:220px;
+}
+}
+
+
+/* // Màn hình kích thước nhỏ hơn 319  */
+@media (max-width: 319px){
+    .app{
+        display: none
+    }
+}
